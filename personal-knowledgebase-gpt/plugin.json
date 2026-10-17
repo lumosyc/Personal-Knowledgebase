@@ -1,0 +1,30 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "personal-knowledgebase-gpt",
+  "version": "1.0.1",
+  "license": "MIT",
+  "description": "Local research and learning knowledgebase with conversational onboarding for Codex.",
+  "author": {
+    "name": "Personal Knowledgebase GPT adaptation"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "个人研究与学习知识库 GPT 版",
+        "shortDescription": "问答初始化，论文带读与课程内化",
+        "longDescription": "在 Codex 桌面管理本地研究和课程知识库，保留原版四层学习路径、研究命题追踪、苏格拉底与费曼教学、提示阶梯、错题掌握度和维护工作流；通过渐进问答自动创建学习者画像。",
+        "developerName": "Personal Knowledgebase GPT adaptation",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "初始化我的知识库，通过提问了解背景、目标和偏好，每次只问一个问题。",
+          "带我读这篇论文，先确定阅读任务和阻塞概念。",
+          "继续上次学习，根据实际作答更新进度和错题。"
+        ]
+      },
+      "onboardingSkill": "./skills/knowledgebase-coach/SKILL.md"
+    }
+  }
+}

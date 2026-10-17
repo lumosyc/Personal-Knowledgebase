@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "updated": null,
+  "identity": {
+    "display_name": null,
+    "background": null,
+    "domain": null,
+    "strengths": [],
+    "gaps": []
+  },
+  "goals": {
+    "mode": null,
+    "description": null,
+    "success_criteria": [],
+    "deadline": null,
+    "time_budget": null
+  },
+  "preferences": {
+    "language": null,
+    "explanation_order": null,
+    "formula_depth": null,
+    "pace": null,
+    "feedback": null,
+    "avoid": [],
+    "analogy_domains": []
+  },
+  "onboarding": {
+    "state": "new",
+    "next_question": "你最近最想用这个知识库解决什么学习或研究问题？"
+  },
+  "provenance": {},
+  "deferred_fields": [],
+  "driving_questions": [],
+  "courses": []
+}
